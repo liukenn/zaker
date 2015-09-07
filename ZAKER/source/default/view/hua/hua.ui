@@ -1,0 +1,74 @@
+{
+    "RootView": {
+        "id": "AlayoutRoot",
+        "width": "480",
+        "height": "854",
+        "bgColor": "E0E0E0FF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_1",
+                "width": "480",
+                "height": "60",
+                "bgColor": "FB4747FF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "12",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "话题"
+                    },
+                    {
+                        "id": "me",
+                        "x": "401",
+                        "y": "-2",
+                        "width": "81",
+                        "height": "64",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "me_",
+                                "x": "14",
+                                "y": "10",
+                                "width": "44",
+                                "height": "43",
+                                "type": "do_ImageView",
+                                "source": "source://image/hua/me.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_2",
+                "y": "60",
+                "width": "480",
+                "height": "50",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_segmentview_1",
+                        "width": "480",
+                        "height": "50",
+                        "bgColor": "FFFFFFFF",
+                        "type": "do_SegmentView",
+                        "templates": "source://view/hua/segmentview_cell.ui"
+                    }
+                ]
+            },
+            {
+                "id": "do_slideview_1",
+                "y": "111",
+                "width": "480",
+                "height": "743",
+                "bgColor": "FFFFFFFF",
+                "type": "do_SlideView",
+                "templates": "source://view/hua/slideview/slideview_1.ui,source://view/hua/slideview/slideview_2.ui,source://view/hua/slideview/slideview_3.ui"
+            }
+        ]
+    }
+}

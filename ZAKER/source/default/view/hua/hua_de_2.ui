@@ -1,0 +1,73 @@
+{
+    "RootView": {
+        "id": "AlayoutRoot",
+        "width": "480",
+        "height": "854",
+        "bgColor": "E0E0E0FF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_1",
+                "width": "480",
+                "height": "60",
+                "bgColor": "FB4747FF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "me",
+                        "x": "401",
+                        "y": "-1",
+                        "width": "81",
+                        "height": "63",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "me_",
+                                "x": "19",
+                                "y": "10",
+                                "width": "44",
+                                "height": "43",
+                                "type": "do_ImageView",
+                                "source": "source://image/hua/me.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "action_back",
+                        "width": "70",
+                        "height": "60",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_1",
+                                "x": "14",
+                                "y": "12",
+                                "width": "38",
+                                "height": "38",
+                                "type": "do_ImageView",
+                                "source": "source://image/hua/fanhui.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_2",
+                "y": "60",
+                "width": "480",
+                "height": "794",
+                "bgColor": "EAEAEAFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_listview_1",
+                        "width": "480",
+                        "height": "794",
+                        "type": "do_ListView",
+                        "templates": "source://view/hua/slideview/cell_1.ui"
+                    }
+                ]
+            }
+        ]
+    }
+}

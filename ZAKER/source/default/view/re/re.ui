@@ -1,0 +1,75 @@
+{
+    "RootView": {
+        "id": "AlayoutRoot",
+        "width": "480",
+        "height": "854",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_1",
+                "width": "480",
+                "height": "60",
+                "bgColor": "FB4747FF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "12",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "热点"
+                    },
+                    {
+                        "id": "point",
+                        "x": "339",
+                        "width": "69",
+                        "height": "64",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "point_",
+                                "x": "15",
+                                "y": "11",
+                                "width": "35",
+                                "height": "37",
+                                "type": "do_ImageView",
+                                "source": "source://image/re/point.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "me",
+                        "x": "407",
+                        "y": "-1",
+                        "width": "73",
+                        "height": "61",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "me_",
+                                "x": "13",
+                                "y": "10",
+                                "width": "44",
+                                "height": "43",
+                                "type": "do_ImageView",
+                                "source": "source://image/re/me.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_listview_1",
+                "y": "60",
+                "width": "480",
+                "height": "720",
+                "type": "do_ListView",
+                "isFooterVisible": "true",
+                "isHeaderVisible": "true",
+                "templates": "source://view/re/cell_1.ui,source://view/re/cell_2.ui"
+            }
+        ]
+    }
+}
